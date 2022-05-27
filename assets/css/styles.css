@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: purple;
+    font-family: 'Source Code Pro', source-code-pro;
+    font-size: 1.5rem;
+}
+
+section {
+    background: rgba(36, 36, 36, 0.377);
+    color: aliceblue;
+    padding: 1rem;
+    max-width: 60rem;
+    margin: 5rem auto;
+    border-radius: 2rem;
+}
+
+form input,
+form label {
+    display: block;
+    margin-bottom: 2rem;
+    width: 100%;
+    font-family: 'Source Code Pro', source-code-pro;
+}
+
+form input {
+    font-size: 1.5rem;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 1rem;
+}
+
+form input:focus {
+    outline: 0.2rem solid greenyellow;
+}
+
+form button {
+    border: none;
+    border-radius: 1rem;
+    display: block;
+    margin: 2rem;
+    width: 10rem;
+    height: 3rem;
+    font-family: 'Source Code Pro', source-code-pro;
+    font-size: 1.3rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: rgba(36, 36, 36, 0.377);
+    color: aliceblue;
+}
+
+form button:active {
+    background: rgba(0, 0, 0, 0.377);
+}
+
+.divflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10rem;
+    margin-bottom: 3rem;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.paragrafo-resultado {
+    background-color: rgba(25, 248, 174, 0.596);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+.bad {
+    background-color: rgba(255, 97, 57, 0.582);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
